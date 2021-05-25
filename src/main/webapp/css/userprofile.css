@@ -1,0 +1,50 @@
+.center{
+	position: relative;
+	margin:auto;
+	margin-top:100px;
+	width: 500px;
+	border-color: black;
+	
+}
+
+h3{
+	text-align: center;
+}
+
+
+.form-group{
+width: 90%;
+position: relative;
+margin: auto;
+margin-top: 10px;
+}
+
+
+
+
+.registerbtn{
+	margin-left:20px;
+	margin-top:20px;
+    position: relative;
+	border-radius: 10px;
+	padding: 7px;
+	width:50%;
+	border: none;
+	font-size: 16px;
+	background: linear-gradient(#ffafbd, #ffc3a0);
+}
+
+.signin{
+	margin-left:60px;
+   margin-top: 15px;
+	
+}
+
+
+@media screen and (max-width: 600px){
+	.center{
+	width:90%;
+	margin-top:100px;
+	}
+}
+
