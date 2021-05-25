@@ -1,0 +1,64 @@
+
+
+.center{
+	position: relative;
+	margin:auto;
+	margin-top:100px;
+	width: 500px;
+	border-color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.login-error{
+color: red;
+
+}
+
+.msg{
+color:green;
+}
+
+.inp{
+width: 70%;
+height: 35px;
+margin-left:60px;
+padding: 5px;
+
+
+}
+
+.registerbtn{
+	margin-left:60px;
+	width: 30%;
+	border-radius: 10px;
+	padding: 7px;
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: linear-gradient(#ffafbd, #ffc3a0);
+
+}
+
+.signin{
+	margin-left:60px;
+   margin-top: 15px;
+	
+}
+
+.fp{
+	padding-left: 50px;
+}
+
+@media screen and (max-width: 600px){
+	.center{
+	width:90%;
+	margin-top:100px;
+	}
+}
+
+

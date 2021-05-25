@@ -1,0 +1,43 @@
+
+.msg{
+	color:green;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.error{
+	color:red;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.center{
+	width: 400px;
+	position:relative;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 200px;
+	margin-top: 100px;
+}
+.form-group{
+	margin-left: 20px;
+	width:90%;
+}
+
+.registerbtn{
+	margin-left: 20px;
+	width:90%;
+	border-radius: 25px;
+	border:none;
+	margin-bottom: 15px;
+	background-color: #90ee90;
+	padding: 7px;
+}
+
+@media screen and (max-width: 400px){
+	.center{
+	width:80%;
+	margin: auto;
+	}
+}
+
